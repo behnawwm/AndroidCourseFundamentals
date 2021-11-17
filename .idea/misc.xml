@@ -19,6 +19,14 @@
     <option name="pathToUserRulesConfiguration" value="" />
     <option name="pathToJarWithRules" value="" />
   </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/AndroidCourseFundamentals/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/AndroidCourseFundamentals/app/src/main/res/layout/layout_test.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
     <option name="effort" value="default" />
