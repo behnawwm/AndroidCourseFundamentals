@@ -9,7 +9,8 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="myColor">#BD2C5D</color>
+    <color name="yellow_khoshgel">#FFDE6A</color>
+    <color name="gray_bg">#FAFAFA</color>
 
 
 </resources>

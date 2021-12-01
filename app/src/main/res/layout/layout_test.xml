@@ -6,6 +6,7 @@
 
 
     <ImageView
+        android:id="@+id/test"
         android:layout_width="400dp"
         android:layout_height="300dp"
         android:src="@drawable/gamingpc" />
