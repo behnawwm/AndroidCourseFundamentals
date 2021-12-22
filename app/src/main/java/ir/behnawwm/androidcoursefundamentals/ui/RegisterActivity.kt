@@ -1,9 +1,10 @@
-package ir.behnawwm.androidcoursefundamentals
+package ir.behnawwm.androidcoursefundamentals.ui
 
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ir.behnawwm.androidcoursefundamentals.common.Constants
 import ir.behnawwm.androidcoursefundamentals.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package ir.behnawwm.androidcoursefundamentals
+package ir.behnawwm.androidcoursefundamentals.common
 
 object Constants {
 

@@ -1,4 +1,4 @@
-package ir.behnawwm.androidcoursefundamentals
+package ir.behnawwm.androidcoursefundamentals.ui.main
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,9 +6,12 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import ir.behnawwm.androidcoursefundamentals.R
+import ir.behnawwm.androidcoursefundamentals.data.Product
 
 class MainListAdapter(
-    val list: List<MainListItem>
+    val list: List<Product>,
+    val onItemClick: (Product) -> Unit
 ) :
     RecyclerView.Adapter<MainListAdapter.MainListViewHolder>() {
 
@@ -35,10 +38,15 @@ class MainListAdapter(
 
     /////////////////////////
 
-    class MainListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class MainListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvTitle = itemView.findViewById<TextView>(R.id.tv_title)
         val tvPrice = itemView.findViewById<TextView>(R.id.tv_price)
         val ivItem = itemView.findViewById<ImageView>(R.id.iv_item)
 
+        init{
+            itemView.setOnClickListener {
+                onItemClick.invoke(list[adapterPosition])
+            }
+        }
     }
 }
