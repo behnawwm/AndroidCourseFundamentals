@@ -1,4 +1,4 @@
-package ir.behnawwm.androidcoursefundamentals.ui.main
+package ir.behnawwm.androidcoursefundamentals.ui.main.fragments
 
 import android.view.LayoutInflater
 import android.view.View
